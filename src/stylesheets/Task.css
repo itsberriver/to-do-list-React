@@ -1,0 +1,35 @@
+.task-component-container {
+    width: 500px;
+    min-height: 65px;
+    background-color: #F5CAC3;
+    margin: auto;
+    padding: 8px 15px 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    border: 1px solid white;
+    cursor: pointer;    
+    color: #1b1b32;
+}
+
+.task-text {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    overflow-wrap: anywhere;
+    font-weight: medium;
+}
+
+.task-delete-icon {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+
+.task-component-container.done {
+    background-color: #F39C99;
+    text-decoration: line-through;
+}

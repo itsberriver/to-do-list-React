@@ -8,7 +8,8 @@ html,
 body {
     color: #FFFDFB;
     background-color: #F5CAC3;
-    font-family: Lato, sans-serif;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
     margin-top: 40px;
 }
 
