@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    color: #FFFDFB;
+    background-color: #F5CAC3;
+    font-family: Lato, sans-serif;
+    margin-top: 40px;
+}
+
+h1 {
+    color: #1b1b32;
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.task-container {
+    width: 600px;
+    min-height: 500px;
+    background-color: #FFFDFB;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 26px;
+    margin:auto
+}
