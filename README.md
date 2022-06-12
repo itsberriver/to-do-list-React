@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# TO DO LIST IN REACT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## The project in use
+<img width="1447" alt="Captura de Pantalla 2022-06-12 a las 23 50 42" src="https://user-images.githubusercontent.com/99019637/173255155-79d87b7e-3621-4e71-9ceb-a22aab76357a.png">
+<img width="1290" alt="Captura de Pantalla 2022-06-12 a las 23 51 44" src="https://user-images.githubusercontent.com/99019637/173255158-3d5a1367-1f9a-48eb-a327-2d5527c4b6d1.png">
 
-## Available Scripts
 
-In the project directory, you can run:
+## About the project
+This is an interactive task application developed with React. You can add a task, remove it from the list and mark it as completed.
+
+This application is part of one of the exercises created by[Estefania Cassingena Navone](https://twitter.com/EstefaniaCassN) for the course[Aprende React Desde Cero](https://www.youtube.com/watch?v=6Jfk8ic3KVk) published on the YouTube channel [freeCodeCamp Español](https://www.youtube.com/c/freeCodeCampEspa%C3%B1ol). 
+
+## Cloning repository
+If you want to see the project's code, you should first clone this repository, to do this, open the terminal in the file you want the project to be saved and run the following command:
+
+`$ https://github.com/itsberriver/to-do-list-React.git`
+
+## Installing Modules
+To install the necessary modules for the application, you must execute the command the following commands.
+
+### `npm install`
+### `$ npm install react-router-dom@6`
+### `$ npm install react-icons --save`
+### `$ npm install uuidv4`
+
+## Run the project
+To run the application, you must execute the command:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application will automatically open in the browser configured by default on your device and run on your localhost.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tools that made possible this project
+- HTML
+- CSS
+- GitHub
+- Figma
+- VScode
+- React
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Developers
+- [Jessica berriver](https://github.com/itsberriver)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Acknowledgments
+To [Estefania Cassingena Navone](https://twitter.com/EstefaniaCassN) for teaching so well and [freeCodeCamp Español](https://www.youtube.com/c/freeCodeCampEspa%C3%B1ol) for uploading the tutorial!  🧡🧡🧡
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
