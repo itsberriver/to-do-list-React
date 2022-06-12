@@ -49,7 +49,7 @@ The application will automatically open in the browser configured by default on 
 
 
 ## Acknowledgments
-To [Estefania Cassingena Navone](https://twitter.com/EstefaniaCassN) for teaching so well and [freeCodeCamp Español](https://www.youtube.com/c/freeCodeCampEspa%C3%B1ol) for uploading the tutorial!  🧡🧡🧡
+To [Estefania Cassingena Navone](https://twitter.com/EstefaniaCassN) for teaching so well and [freeCodeCamp Español](https://www.youtube.com/c/freeCodeCampEspa%C3%B1ol) for uploading the tutorial!  🧡🧡
 
 
 
