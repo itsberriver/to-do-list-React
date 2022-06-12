@@ -9,12 +9,17 @@ function TaskList(){
 
     const [tasks, setTasks] = useState([]);
 
-    const addTask = task =>{
+    const addTask = task => {
         if (task.text.trim()) {
             task.text = task.text.trim();
             const updatedTasks = [task,... tasks];
             setTasks(updatedTasks);
         }
+    }
+
+    const deleteTask = id => {
+        const updatedTasks = tasks.filter(task => task.id !== id);
+        setTasks(updatedTasks);
     }
 
     return(
@@ -28,6 +33,7 @@ function TaskList(){
                     id = {task.id}
                     text={task.text}
                     done={task.done}
+                    deleteTask = {deleteTask}
                 />
 
             )}

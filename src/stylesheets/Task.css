@@ -33,3 +33,15 @@
     background-color: #F39C99;
     text-decoration: line-through;
 }
+
+.task-component-container:nth-child(3n + 1) {
+    background-color: #F5CAC3;
+  }
+  
+  .task-component-container:nth-child(3n + 2) {
+    background-color: #edb0ae;
+  }
+  
+  .task-component-container:nth-child(3n + 3) {
+    background-color: #F39C99;
+  }
