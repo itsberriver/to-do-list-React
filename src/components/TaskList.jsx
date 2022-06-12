@@ -23,7 +23,9 @@ function TaskList(){
             <div className = 'task-list-container'>
             {
                 tasks.map((task) =>
-                <TaskForm 
+                <Task 
+                    key = {task.id}
+                    id = {task.id}
                     text={task.text}
                     done={task.done}
                 />
