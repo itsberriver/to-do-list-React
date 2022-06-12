@@ -29,8 +29,8 @@
     margin: auto;
 }
 
-.task-component-container.done {
-    background-color: #F39C99;
+div.task-component-container.done {
+    background-color: #d0e893;
     text-decoration: line-through;
 }
 
