@@ -22,6 +22,16 @@ function TaskList(){
         setTasks(updatedTasks);
     }
 
+    const taskIsDone = id => {
+        const updatedTasks = tasks.map(task => {
+            if (task.id === id) {
+            task.done = !task.done;
+            }
+        return task;
+        });
+        setTasks(updatedTasks);
+    }
+
     return(
         <>
             <TaskForm onSubmit = {addTask} />
@@ -34,6 +44,8 @@ function TaskList(){
                     text={task.text}
                     done={task.done}
                     deleteTask = {deleteTask}
+                    taskIsDone = {taskIsDone}
+
                 />
 
             )}
