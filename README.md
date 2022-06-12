@@ -18,10 +18,10 @@ If you want to see the project's code, you should first clone this repository, t
 ## Installing Modules
 To install the necessary modules for the application, you must execute the command the following commands.
 
-### `npm install`
-### `$ npm install react-router-dom@6`
-### `$ npm install react-icons --save`
-### `$ npm install uuidv4`
+## `npm install`
+## `$ npm install react-router-dom@6`
+## `$ npm install react-icons --save`
+## `$ npm install uuidv4`
 
 ## Run the project
 To run the application, you must execute the command:
@@ -37,6 +37,11 @@ The application will automatically open in the browser configured by default on 
 - Figma
 - VScode
 - React
+
+## Future updates
+- Make it responsible
+- Delete the previuos text when added a task
+- Be able to edit tasks
 
 
 ## Developers
