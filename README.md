@@ -20,8 +20,6 @@ To install the necessary modules for the application, you must execute the comma
 
  `npm install`
  
- `$ npm install react-router-dom@6`
- 
  `$ npm install react-icons --save`
  
  `$ npm install uuidv4`
