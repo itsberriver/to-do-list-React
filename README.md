@@ -39,6 +39,7 @@ The application will automatically open in the browser configured by default on 
 - Figma
 - VScode
 - React
+- Javascript
 
 ## Future updates
 - Make it responsible
